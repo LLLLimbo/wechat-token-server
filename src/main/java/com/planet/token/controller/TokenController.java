@@ -2,7 +2,7 @@ package com.planet.token.controller;
 
 import com.planet.token.schedule.ScheduleHelper;
 import com.planet.token.service.TokenService;
-import entity.CreateConfigRequest;
+import com.planet.token.entity.CreateConfigRequest;
 import io.netty.util.internal.StringUtil;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

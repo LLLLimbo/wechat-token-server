@@ -1,6 +1,6 @@
 package com.planet.token.service;
 
-import entity.CreateConfigRequest;
+import com.planet.token.entity.CreateConfigRequest;
 import org.springframework.stereotype.Service;
 
 import java.net.ConnectException;

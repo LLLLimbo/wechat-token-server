@@ -1,4 +1,4 @@
-package entity;
+package com.planet.token.entity;
 
 import lombok.Data;
 
