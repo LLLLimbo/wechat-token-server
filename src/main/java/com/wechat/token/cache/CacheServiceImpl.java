@@ -1,4 +1,4 @@
-package com.planet.token.cache;
+package com.wechat.token.cache;
 
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 public class CacheServiceImpl implements CacheService {
 
     private final StringRedisTemplate redisTemplate;
-    private static final String TOKEN_MAP = "PLANET_TOKEN_MAP";
-    private static final String TOKEN_CACHE_KEY_PREFIX = "PLANET_TOKEN_KEY:";
+    private static final String TOKEN_MAP = "WECHAT_TOKEN_MAP";
+    private static final String TOKEN_CACHE_KEY_PREFIX = "WECHAT_TOKEN_KEY:";
 
     public CacheServiceImpl(StringRedisTemplate redisTemplate) {
         this.redisTemplate = redisTemplate;

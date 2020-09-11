@@ -1,10 +1,10 @@
-package com.planet.token;
+package com.wechat.token;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PlanetTokenServerApplicationTests {
+class WechatTokenServerApplicationTests {
 
     @Test
     void contextLoads() {

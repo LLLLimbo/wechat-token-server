@@ -1,4 +1,4 @@
-package com.planet.token.schedule;
+package com.wechat.token.schedule;
 
 import lombok.extern.slf4j.Slf4j;
 import org.quartz.Job;

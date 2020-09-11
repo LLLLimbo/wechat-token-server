@@ -1,4 +1,4 @@
-package com.planet.token.cache;
+package com.wechat.token.cache;
 
 import org.springframework.stereotype.Service;
 

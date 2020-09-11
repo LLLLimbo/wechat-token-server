@@ -1,4 +1,4 @@
-package com.planet.token;
+package com.wechat.token;
 
 import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;
@@ -8,12 +8,12 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-@EnableDubbo(scanBasePackages = "com.planet.token.service")
+@EnableDubbo(scanBasePackages = "com.wechat.token.service")
 @PropertySource("classpath:/dubbo-provider.properties")
-public class PlanetTokenServerApplication {
+public class WechatTokenServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PlanetTokenServerApplication.class, args);
+        SpringApplication.run(WechatTokenServerApplication.class, args);
     }
 
     @Bean

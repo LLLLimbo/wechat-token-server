@@ -1,13 +1,13 @@
-package com.planet.token.service;
+package com.wechat.token.service;
 
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.IdUtil;
 import cn.hutool.core.util.StrUtil;
-import com.planet.token.cache.CacheService;
-import com.planet.token.model.Ticket;
-import com.planet.token.repo.TicketRepo;
-import com.planet.token.entity.CreateConfigRequest;
-import com.planet.token.entity.WechatResponse;
+import com.wechat.token.cache.CacheService;
+import com.wechat.token.model.Ticket;
+import com.wechat.token.repo.TicketRepo;
+import com.wechat.token.entity.CreateConfigRequest;
+import com.wechat.token.entity.WechatResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.DubboService;
 import org.springframework.stereotype.Component;

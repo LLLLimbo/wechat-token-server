@@ -1,4 +1,4 @@
-package com.planet.token.entity;
+package com.wechat.token.entity;
 
 import lombok.Data;
 

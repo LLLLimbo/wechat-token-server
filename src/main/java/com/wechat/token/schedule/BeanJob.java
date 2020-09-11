@@ -1,4 +1,4 @@
-package com.planet.token.schedule;
+package com.wechat.token.schedule;
 
 public interface BeanJob {
 

@@ -1,6 +1,6 @@
-package com.planet.token.repo;
+package com.wechat.token.repo;
 
-import com.planet.token.model.Ticket;
+import com.wechat.token.model.Ticket;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

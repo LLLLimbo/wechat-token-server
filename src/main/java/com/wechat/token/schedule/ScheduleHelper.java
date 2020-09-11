@@ -1,7 +1,7 @@
-package com.planet.token.schedule;
+package com.wechat.token.schedule;
 
-import com.planet.token.repo.TicketRepo;
-import com.planet.token.service.TokenService;
+import com.wechat.token.repo.TicketRepo;
+import com.wechat.token.service.TokenService;
 import org.quartz.*;
 import org.quartz.impl.matchers.GroupMatcher;
 import org.springframework.stereotype.Component;

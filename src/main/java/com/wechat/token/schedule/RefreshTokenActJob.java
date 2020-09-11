@@ -1,6 +1,6 @@
-package com.planet.token.schedule;
+package com.wechat.token.schedule;
 
-import com.planet.token.service.TokenService;
+import com.wechat.token.service.TokenService;
 import org.springframework.stereotype.Component;
 
 import java.net.ConnectException;

@@ -1,6 +1,6 @@
-package com.planet.token.model;
+package com.wechat.token.model;
 
-import com.planet.token.repo.CryptoConverter;
+import com.wechat.token.repo.CryptoConverter;
 import lombok.Data;
 import lombok.Setter;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
@@ -12,7 +12,7 @@ import java.util.Date;
 @Entity
 @Setter
 @EntityListeners(AuditingEntityListener.class)
-@Table(name = "wechat_access_token", catalog = "sys_config", schema = "sys_config", indexes = {
+@Table(name = "wechat_access_token",indexes = {
         @Index(name = "sys_config_id_index", columnList = "id", unique = true),
         @Index(name = "sys_config_app_id_index", columnList = "app_id", unique = true)
 }

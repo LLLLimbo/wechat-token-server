@@ -1,6 +1,6 @@
-package com.planet.token.service;
+package com.wechat.token.service;
 
-import com.planet.token.entity.CreateConfigRequest;
+import com.wechat.token.entity.CreateConfigRequest;
 import org.springframework.stereotype.Service;
 
 import java.net.ConnectException;

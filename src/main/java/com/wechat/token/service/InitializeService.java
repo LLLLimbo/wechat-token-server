@@ -1,9 +1,9 @@
-package com.planet.token.service;
+package com.wechat.token.service;
 
 import cn.hutool.core.date.DateUtil;
-import com.planet.token.model.Ticket;
-import com.planet.token.repo.TicketRepo;
-import com.planet.token.schedule.ScheduleHelper;
+import com.wechat.token.model.Ticket;
+import com.wechat.token.repo.TicketRepo;
+import com.wechat.token.schedule.ScheduleHelper;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;

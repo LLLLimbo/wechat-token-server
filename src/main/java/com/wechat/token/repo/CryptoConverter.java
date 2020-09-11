@@ -1,4 +1,4 @@
-package com.planet.token.repo;
+package com.wechat.token.repo;
 
 import cn.hutool.core.util.StrUtil;
 
